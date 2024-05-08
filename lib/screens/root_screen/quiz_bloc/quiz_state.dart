@@ -1,4 +1,4 @@
-import 'package:platform_for_learning/features/lesson/domain/lesson.dart';
+import 'package:platform_for_learning/data/lesson.dart';
 
 abstract class QuizState {}
 

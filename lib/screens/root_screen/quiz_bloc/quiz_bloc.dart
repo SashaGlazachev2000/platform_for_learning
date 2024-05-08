@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:platform_for_learning/features/lesson/domain/lesson.dart';
-import 'package:platform_for_learning/features/lesson/presentation/bloc/quiz_bloc/quiz_event.dart';
-import 'package:platform_for_learning/features/lesson/presentation/bloc/quiz_bloc/quiz_state.dart';
+import 'package:platform_for_learning/data/lesson.dart';
+import 'package:platform_for_learning/screens/root_screen/quiz_bloc/quiz_event.dart';
+import 'package:platform_for_learning/screens/root_screen/quiz_bloc/quiz_state.dart';
 
 class QuizBloc extends Bloc<QuizEvent, QuizState> {
   Quiz quiz;
